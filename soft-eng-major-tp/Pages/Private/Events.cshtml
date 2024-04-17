@@ -1,0 +1,64 @@
+﻿@page
+@model soft_eng_major_tp.Pages.Private.EventsModel
+@{
+    Layout = "~/Pages/Shared/_WebAppLayout.cshtml";
+}
+
+<main>
+    <main class="container my-3">
+        <header>
+            <h1>COMMUNITY</h1>
+            <p class="text-secondary">community description</p>
+            <hr />
+            <button type="button" class="btn btn-primary btn-sm">Add Entry</button>
+            <hr />
+        </header>
+        <section>
+            <div class="p-3 bg-light">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Event ID</th>
+                            <th scope="col">Organizer</th>
+                            <th scope="col">Event Title</th>
+                            <th scope="col">Event Description</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="">
+                            <td>EVNT001</td>
+                            <td>Valorant</td>
+                            <td>Champions 2024</td>
+                            <td>Valorant's annual international competition.</td>
+                            <td>Manila, Philippines</td>
+                            <td>17/04/2024</td>
+                            <td>10:00 PM - 1:00 AM, PHT</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Delete</button>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>EVNT002</td>
+                            <td>Minecraft Hunger Games</td>
+                            <td>MC Java Champions</td>
+                            <td>A local competition organized by Minecraft Hunger Games PH.</td>
+                            <td>Manila, Philippines</td>
+                            <td>18/04/2024</td>
+                            <td>10:00 AM - 1:00 PM, PHT</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="py-3 text-secondary">The table contains x rows.</p>
+        </section>
+    </main>
+</main>

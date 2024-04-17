@@ -1,0 +1,61 @@
+﻿@page
+@model soft_eng_major_tp.Pages.Private.StoreModel
+@{
+    Layout = "~/Pages/Shared/_WebAppLayout.cshtml";
+}
+
+<main>
+    <main class="container my-3">
+        <header>
+            <h1>STORE</h1>
+            <p class="text-secondary">store description</p>
+            <hr />
+            <button type="button" class="btn btn-primary btn-sm">Add Entry</button>
+            <hr />
+        </header>
+        <section>
+            <div class="p-3 bg-light">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Item ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Discount Type</th>
+                            <th scope="col">Discount</th>
+                            <th scope="col">Sold</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="">
+                            <td>GM001</td>
+                            <td>Minecraft: Java Edition</td>
+                            <td>Php 1350.00</td>
+                            <td>Winter Summer Sale</td>
+                            <td>5%</td>
+                            <td>1,259 copies</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>GM002</td>
+                            <td>Dying Light</td>
+                            <td>Php 5350.00</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>759 copies</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="py-3 text-secondary">The table contains x rows.</p>
+        </section>
+    </main>
+</main>

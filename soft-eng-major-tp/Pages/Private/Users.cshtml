@@ -1,0 +1,85 @@
+﻿@page
+@model soft_eng_major_tp.Pages.Private.UsersModel
+@{
+    Layout = "~/Pages/Shared/_WebAppLayout.cshtml";
+}
+
+<main>
+    <main class="container my-3">
+        <header>
+            <h1>Users</h1>
+            <p class="text-secondary">user description</p>
+            <hr />
+            <button type="button" class="btn btn-primary btn-sm">Add Entry</button>
+            <hr />
+        </header>
+        <section>
+            <div class="p-3 bg-light">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">User ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">UserName</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Password</th>
+                            <th scope="col">Birthday</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="">
+                            <td>USR001</td>
+                            <td>Mark Lape</td>
+                            <td>Powd_</td>
+                            <td>lapemark11@gmail.com</td>
+                            <td>myPassword123</td>
+                            <td>11/18/2002</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Archive</button>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>USR002</td>
+                            <td>Kyle Agullana</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Archive</button>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>USR003</td>
+                            <td>Kian Dela Cruz</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Archive</button>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>USR004</td>
+                            <td>James Gerena</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Archive</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="py-3 text-secondary">The table contains x rows.</p>
+        </section>
+    </main>
+</main>

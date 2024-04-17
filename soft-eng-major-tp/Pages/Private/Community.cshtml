@@ -1,0 +1,52 @@
+﻿@page
+@model soft_eng_major_tp.Pages.Private.CommunityModel
+@{
+    Layout = "~/Pages/Shared/_WebAppLayout.cshtml";
+}
+
+<main>
+    <main class="container my-3">
+        <header>
+            <h1>COMMUNITY</h1>
+            <p class="text-secondary">community description</p>
+            <hr />
+            <button type="button" class="btn btn-primary btn-sm">Add Entry</button>
+            <hr />
+        </header>
+        <section>
+            <div class="p-3 bg-light">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Post ID</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Post</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="">
+                            <td>PST001</td>
+                            <td>Powd_</td>
+                            <td>Post Content</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Delete</button>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td>PST002</td>
+                            <td>Powd_</td>
+                            <td>Post Content</td>
+                            <td class="d-flex gap-3">
+                                <button class="btn btn-link p-0">Edit</button>
+                                <button class="btn btn-link p-0">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="py-3 text-secondary">The table contains x rows.</p>
+        </section>
+    </main>
+</main>

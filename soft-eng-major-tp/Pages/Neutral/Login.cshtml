@@ -1,0 +1,24 @@
+﻿@page
+@model soft_eng_major_tp.Pages.NewFolder.LoginModel
+@{
+    Layout = "~/Pages/Shared/_LoginFormLayout.cshtml";
+}
+
+<main class="bg-dark text-light p-5 d-flex justify-content-center align-items-center" style="height: 100vh">
+    <section class="">
+        <header class="text-center">
+            <h5><small>Game Pub</small></h5>
+            <h1><strong>Login</strong></h1>
+            <hr />
+            <p>Please Login. Editable</p>
+        </header>
+        <form onsubmit="" class="d-flex flex-column align-items-center" style="width: 25vw">
+            <input class="form-control my-3" type="text" placeholder="Username" />
+            <input class="form-control mt-3" type="password" placeholder="Passowrd" />
+            <button type="button" class="btn btn-link mb-3">Forgot Password</button>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <button type="button" class="btn btn-link">Register</button>
+            <a asp-area="" asp-page="/Private/Dashboard"><p>To dashboard. Temporary</p></a>
+        </form>
+    </section>
+</main>
